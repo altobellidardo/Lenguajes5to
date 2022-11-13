@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ Pedir por teclado las notas de 20 alumnos y almacenarlos en un vector acorde. Calcular el
+promedio, la cantidad de alumnos que aprobaron y la cantidad de alumnos que deben
+realizar el recuperatorio. Imprimir el vector, realizar una función por cada operación a
+realizar.
+*/
+
 float notas[20],aux,prom;
 int i=0,aprobo=0,desaprobo=0,cursor;
 
