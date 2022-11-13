@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+Crear un programa que pida una palabra por teclado. Indicar por pantalla la cantidad de
+caracteres que tiene sin contar el ‘\0’.
+*/
+
 int main(void) {
     char palabra[20];
 
