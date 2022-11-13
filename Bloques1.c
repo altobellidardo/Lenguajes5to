@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+Crear un programa que permita el ingreso de las notas de un curso para poder calcular su
+promedio e imprimirlo por pantalla. Las notas deben estar dentro del rango 0-10 y el
+ingreso de datos finaliza cuando el usuario ingresa -1. Se debe imprimir la cantidad de
+notas y su promedio.
+*/
+
 int main(void) {
   float prom=0,aux=0; //promedio y auxiliar
   int numeros=0;
