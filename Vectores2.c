@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+Crear una función que reciba un vector de números positivos, la cantidad de elementos y
+un número a buscar. En caso de haberlo encontrado, devuelve el índice. En caso contrario,
+se indica por pantalla y devuelve -1.
+*/
+
 int analizar(int list[],int,int);
 
 int main(void) {
