@@ -9,7 +9,7 @@ ingresaron, cuantas "e, i, o, u".
 int main(void) {
     unsigned int a=0,e=0,i=0,o=0,u=0;
     char cadena[20];
-    printf("Bienvenido, por favor ingrese una cadena de 20 caracteres\n");
+    printf("Bienvenido, por favor ingrese una cadena de 20 caracteres, no usar espacio\n");
     scanf("%s", &cadena);
     for (int t=0;t<20;t++){
         if (cadena[t]=='a'||cadena[t]=='A')a++;
