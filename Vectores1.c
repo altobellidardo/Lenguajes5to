@@ -14,7 +14,7 @@ void cambiar(void);
 void resultado(void);
 
 int main(void) {
-    printf("Bienvenido\n");
+    printf("Bienvenido\npara editar un valor ingrese -1\n");
     while (i<20){
         printf("Ingrese una nota: ");
         scanf("%f",&aux);
@@ -38,7 +38,7 @@ void cambiar(void){
 }
 
 void resultado(void){
-       printf("0 para finalizar\n1 para realizar un cambio\n");
+    printf("0 para finalizar\n1 para realizar un cambio\n");
     scanf("%d",&cursor);
     if (cursor>0)cambiar();
     printf("El vector es:\n");
