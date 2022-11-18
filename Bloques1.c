@@ -13,22 +13,22 @@ int main(void) {
     char run = 1;
     printf("Bienvenido\n");
     while (run){
-    while (1){
-        printf("Ingrese su nota: ");
-        scanf("%f",&aux);
-        if (aux==-1)break;
-        else if (aux<0||aux>10)printf("[%.2f] no es valido\n",aux);
-        else{
-            printf("se agrego: %.2f\n",aux);
-            prom+=aux;
-            numeros++;
+        while (1){
+            printf("Ingrese su nota: ");
+            scanf("%f",&aux);
+            if (aux==-1)break;
+            else if (aux<0||aux>10)printf("[%.2f] no es valido\n",aux);
+            else{
+                printf("se agrego: %.2f\n",aux);
+                prom+=aux;
+                numeros++;
+            }
         }
-    }
-    if (numeros!=0)prom/=numeros;
-    printf("el promedio es: %.2f con %d notas\n",prom,numeros);
-    printf("Ingrese \n0 para salir\n1 para continuar\n");
-    scanf("%d",&run);
-    if (!run)printf("Gracias por usar el software");
+        if (numeros!=0)prom/=numeros;
+        printf("el promedio es: %.2f con %d notas\n",prom,numeros);
+        printf("Ingrese \n0 para salir\n1 para continuar\n");
+        scanf("%d",&run);
+        if (!run)printf("Gracias por usar el software");
     }
     return 0;
 }
